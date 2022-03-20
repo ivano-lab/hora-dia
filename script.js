@@ -3,7 +3,6 @@ function carregar() {
     var img = window.document.getElementById('imagem')
     var data = new Date()
     var hora = data.getHours()
-    hora = 8
     msg.innerHTML = `Agora sao ${hora} horas.`
     if (hora >= 0 && hora < 12) {
         //BOM DIA!
